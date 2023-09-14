@@ -1,21 +1,25 @@
 # Deep-Learning-Grad-HW01-UNet-Segmentation
 Deep Learning (Grad),Dr M. Soleymani, Sharif University of Technology, Spring 2023 HW02
 
-You'll be building your own U-Net, a type of CNN designed for quick, precise image segmentation, and using it to predict a label for every single pixel in an image - in this case, an image from a self-driving car dataset. 
+Welcome to my U-Net image segmentation project! In this repository, I'll guide you through building your own U-Net, a powerful convolutional neural network designed for precise image segmentation. We'll use this network to predict labels for every pixel in images from the CARLA self-driving car dataset.
 
-This type of image classification is called semantic image segmentation. It's similar to object detection in that both ask the question: "What objects are in this image and where in the image are those objects located?," but where object detection labels objects with bounding boxes that may include pixels that aren't part of the object, semantic image segmentation allows you to predict a precise mask for each object in the image by labeling each pixel in the image with its corresponding class. The word “semantic” here refers to what's being shown, so for example the “Car” class is indicated below by the dark blue mask, and "Person" is indicated with a red mask:
-
+## What is Semantic Image Segmentation?
+Semantic image segmentation is a fascinating task in computer vision. It goes beyond traditional object detection by not only identifying objects in an image but also precisely outlining them at the pixel level. Think of it as creating an intricate map for each object, where every pixel is labeled with its corresponding class. For example, in an image of a street scene, "Car" pixels might be marked in dark blue, and "Person" pixels could be highlighted in red:
 
 ![download](https://github.com/hamidrezayaghobi/Deep-Learning-Grad-HW02-UNet-Segmentation/assets/59170724/4e48f2f8-782d-4152-82ef-4dcada0a2221) </br>
-<u><b>Figure 1</u></b>: Example of a segmented image <br>
+<u><b>Figure 1</u></b>: Example of a model's output<be>
 
-As you might imagine, region-specific labeling is a pretty crucial consideration for self-driving cars, which require a pixel-perfect understanding of their environment so they can change lanes and avoid other cars, or any number of traffic obstacles that can put peoples' lives in danger. 
+This level of detail is essential for applications like self-driving cars, which require a granular understanding of their surroundings to make safe decisions. With semantic segmentation, I can identify lanes, other vehicles, pedestrians, and more with pixel-perfect accuracy.
 
-By the time you finish this notebook, you'll be able to: 
+## What You'll Learn
+By the end of this project, you'll achieve the following milestones:
 
-* Build your own U-Net
-* Explain the difference between a regular CNN and a U-net
-* Implement semantic image segmentation on the CARLA self-driving car dataset
-* Apply sparse categorical crossentropy for pixelwise prediction
+1- **Build Your Own U-Net:** You'll have hands-on experience in constructing a U-Net architecture, gaining insights into its key features and benefits.
 
-Onward, to this grand and glorious quest!
+2- **Understanding U-Net:** You'll grasp the fundamental differences between a regular convolutional neural network (CNN) and the U-Net architecture.
+
+3- **CARLA Dataset:** I'll work with the CARLA self-driving car dataset, applying semantic image segmentation to real-world images.
+
+4- **Pixelwise Prediction:** You'll implement the sparse categorical cross-entropy loss function for pixel-wise prediction, a crucial step in semantic segmentation.
+
+Let's embark on this grand journey of exploring U-Net and enhancing your skills in image segmentation!
