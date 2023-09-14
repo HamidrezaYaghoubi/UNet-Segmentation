@@ -21,5 +21,3 @@ By the end of this project, you'll achieve the following milestones:
 3- **CARLA Dataset:** I'll work with the CARLA self-driving car dataset, applying semantic image segmentation to real-world images.
 
 4- **Pixelwise Prediction:** You'll implement the sparse categorical cross-entropy loss function for pixel-wise prediction, a crucial step in semantic segmentation.
-
-Let's embark on this grand journey of exploring U-Net and enhancing your skills in image segmentation!
