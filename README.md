@@ -1,6 +1,4 @@
-# Deep-Learning-Grad-HW01-UNet-Segmentation
-Deep Learning (Grad),Dr M. Soleymani, Sharif University of Technology, Spring 2023 HW02
-
+# UNet Segmentation
 Welcome to my U-Net image segmentation project! In this repository, I'll guide you through building your own U-Net, a powerful convolutional neural network designed for precise image segmentation. We'll use this network to predict labels for every pixel in images from the CARLA self-driving car dataset.
 
 ## What is Semantic Image Segmentation?
